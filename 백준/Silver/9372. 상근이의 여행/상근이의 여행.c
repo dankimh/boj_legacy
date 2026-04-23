@@ -1,0 +1,1 @@
+main(t,n,m,a,b){scanf("%d",&t);while(t--){scanf("%d%d",&n,&m);for(int i=0;i<m;i++)scanf("%d%d",&b,&a);printf("%d\n",n-1);}}

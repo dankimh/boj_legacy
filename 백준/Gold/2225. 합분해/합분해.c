@@ -1,0 +1,1 @@
+main(n,k,j){int d[201]={1,};scanf("%d%d",&n,&k);while(k--)for(j=1;j<=n;j++){d[j]=(d[j-1]+d[j])%1000000000;}printf("%d",d[n]);}
